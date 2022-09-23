@@ -1,0 +1,16 @@
+PODS:
+  - ZZWViews (0.1.0)
+
+DEPENDENCIES:
+  - ZZWViews (from `../`)
+
+EXTERNAL SOURCES:
+  ZZWViews:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZWViews: cf2439e84a1b2b94df3987f35aa65e37f3ea054c
+
+PODFILE CHECKSUM: f0fa67b0d78b21a3048b618c586e7a9db467c1af
+
+COCOAPODS: 1.11.3

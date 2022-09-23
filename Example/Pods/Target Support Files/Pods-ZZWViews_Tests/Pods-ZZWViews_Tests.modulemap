@@ -1,0 +1,6 @@
+framework module Pods_ZZWViews_Tests {
+  umbrella header "Pods-ZZWViews_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

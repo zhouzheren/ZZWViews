@@ -1,0 +1,6 @@
+framework module ZZWViews {
+  umbrella header "ZZWViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
