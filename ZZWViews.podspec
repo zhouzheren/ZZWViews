@@ -9,34 +9,13 @@
 Pod::Spec.new do |s|
   s.name             = 'ZZWViews'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZZWViews.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/a595429717@163.com/ZZWViews'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.summary          = '自定义view集合'
+  s.description      = '开发中用到的常见自定义view' #库的详细描述
+  s.homepage         = 'https://github.com/zhouzheren/ZZWViews'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'a595429717@163.com' => 'a595429717@163.com' }
-  s.source           = { :git => 'https://github.com/a595429717@163.com/ZZWViews.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'snail' => 'a595429717@163.com' }
+  s.source           = { :git => 'https://github.com/zhouzheren/ZZWViews.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://www.jianshu.com/u/611e4882e4dc'
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'ZZWViews/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZZWViews' => ['ZZWViews/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
