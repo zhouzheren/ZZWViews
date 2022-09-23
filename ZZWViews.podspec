@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://www.jianshu.com/u/611e4882e4dc'
   s.ios.deployment_target = '10.0'
   s.source_files = 'ZZWViews/Classes/**/*'
+  s.dependency 'Masonry','~> 1.1.0' #需要依赖的三方库
 end

@@ -7,17 +7,32 @@
 //
 
 #import "ZZWViewController.h"
-
-@interface ZZWViewController ()
+#import "ZZWPopAlertViewController.h"
+@interface ZZWViewController ()<ZZWPopAlertViewControllerDelegate>
 
 @end
 
 @implementation ZZWViewController
+- (IBAction)show:(id)sender {
+    ZZWPopAlertViewController *vc = [ZZWPopAlertViewController new];
+    vc.delegate = self;
+    [self presentViewController:vc animated:NO completion:nil];
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+}
+
+
+#pragma mark ZZWPopAlertViewControllerDelegate
+    
+-(void)ZZWPopAlertViewController:(ZZWPopAlertViewController *)vc tapSureButton:(UIButton *)btn{
+    [vc dismissViewControllerAnimated:NO completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
